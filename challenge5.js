@@ -76,8 +76,12 @@ console.log('Average tip for John: ' + johnFamily.averageTip);
 console.log('Average tip for Mark: ' + markFamily.averageTip);
 console.log('------------------------------------------');
 
-if (condition) {
-    
+if (johnFamily.averageTip > markFamily.averageTip) {
+    console.log('John paid higher average tips!!!');
+} else if (markFamily.averageTip > johnFamily.averageTip){
+    console.log('Mark paid higher average tips!!!');
+} else {
+    console.log('Mark and John both paid the same average tips each');
 }
 
 
