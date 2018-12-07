@@ -18,10 +18,6 @@ if (mikeAvgScore > johnAvgScore) {
     console.log('There was a draw');
 }
 
-
-
-
-
 function calculateAverageScore(scoreList) {
     var avg = 0;
     for (let i = 0; i < scoreList.length; i++) {
