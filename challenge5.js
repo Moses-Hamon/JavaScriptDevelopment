@@ -3,7 +3,7 @@ var johnFamily = {
     bills: [124, 48, 268, 180, 42],
     tipAmounts: [],
     totalAmount: [],
-    calcTips: function () {
+    calcTips: function() {
         // iterate through the bills
         for (let i = 0; i < this.bills.length; i++) {
             // variables for holding information
@@ -36,7 +36,7 @@ var markFamily = {
     tipAmounts: [],
     totalAmount: [],
 
-    calcTips: function () {
+    calcTips: function() {
         for (let i = 0; i < this.bills.length; i++) {
             var bill = this.bills[i];
             var tip = 0;
